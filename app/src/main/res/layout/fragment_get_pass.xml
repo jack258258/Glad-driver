@@ -1,0 +1,40 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.user.glad_driver.GetPassFrag">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="373dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/cancelorder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="取消訂單"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="前往載客中"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/takepassenger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="已載客"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+</FrameLayout>

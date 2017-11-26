@@ -1,0 +1,34 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.user.glad_driver.GetLocFrag">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="373dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="前往目的地"
+            android:textSize="25dp"
+            android:layout_marginLeft="125dp"/>
+
+        <Button
+            android:id="@+id/btngetloca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="已到達"
+            android:textSize="25dp"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+
+</FrameLayout>
